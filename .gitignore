@@ -1,0 +1,8 @@
+.superpowers/
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+eval/results/*.tmp
+hf_cache/
+docs/superpowers/

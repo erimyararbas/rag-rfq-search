@@ -1,0 +1,22 @@
+[project]
+name = "rag-rfq-search"
+version = "0.1.0"
+description = "RAG service for searching similar past industrial RFQs (Postgres + pgvector + Claude), on synthetic data"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "psycopg[binary]",
+    "pgvector",
+    "sentence-transformers",
+    "anthropic",
+    "pydantic-settings",
+]
+
+[dependency-groups]
+dev = ["pytest", "httpx"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["integration: needs a running Postgres+pgvector database"]

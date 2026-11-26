@@ -1,0 +1,44 @@
+{
+  "corpus": {
+    "rfqs": 13200,
+    "chunks": 15189,
+    "multi_chunk_rfqs": 1989,
+    "max_chunks_per_rfq": 2
+  },
+  "db_counts": {
+    "rfqs": 13200,
+    "chunks": 15189
+  },
+  "this_run": {
+    "rfqs_present_before": 13200,
+    "rfqs_loaded": 0,
+    "chunks_loaded": 0,
+    "load_seconds": 0.0
+  },
+  "load_seconds_total": 3394.0,
+  "load_seconds_source": "derived, not timed: from the end of the estimate run (2026-11-26T16:03:40Z) to the index-build error in the Postgres log (2026-11-26T17:00:14Z); includes container start, corpus generation and E5 model load (about 10-20 s); the first build failed because /dev/shm was 64 MB",
+  "index_build_seconds": 2.89043262999985,
+  "maintenance_work_mem": "1GB",
+  "index_params": {
+    "m": 16,
+    "ef_construction": 64
+  },
+  "vacuum_seconds": 0.5528726320007991,
+  "sizes": {
+    "database_bytes": 170219187,
+    "chunks": {
+      "relation_bytes": 20611072,
+      "total_bytes": 158777344
+    },
+    "chunks_embedding_hnsw": {
+      "relation_bytes": 62226432,
+      "total_bytes": 62226432
+    },
+    "chunks_tsv_gin": {
+      "relation_bytes": 7684096,
+      "total_bytes": 7708672
+    }
+  },
+  "commit": "8f691af",
+  "timestamp": "2026-11-26T17:01:42+00:00"
+}

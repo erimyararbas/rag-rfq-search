@@ -1,0 +1,17 @@
+{
+  "corpus": {
+    "rfqs": 13200,
+    "chunks": 15189,
+    "multi_chunk_rfqs": 1989,
+    "max_chunks_per_rfq": 2
+  },
+  "sample_chunks": 256,
+  "sample_multi_chunks": 67,
+  "batch_size": 32,
+  "model_load_seconds": 9.260226496999167,
+  "embed_seconds": 61.128395099000045,
+  "chunks_per_s": 4.187906448147331,
+  "estimated_minutes": 60.44786413793697,
+  "commit": "e1c1a54",
+  "timestamp": "2026-11-26T16:03:40+00:00"
+}
